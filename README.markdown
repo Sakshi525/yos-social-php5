@@ -92,7 +92,6 @@ The sdk comes with example code, but you must first upcate the file
     define('OAUTH_DOMAIN', '###');
     define('OAUTH_APP_ID', '###');
 
-
 Create OAuth applications in the Yahoo! Developer Dashboard:
 
 http://developer.yahoo.com/dashboard/
@@ -162,15 +161,13 @@ See the bundled sample code in examples/yql/delicious.php.
 
     See the bundled sample code in examples/simpleauth/simpleauth.php.
 
-
 ## Fetching people and activities with OpenSocial:
 
     See the bundled sample code in examples/opensocial/profile.php.
 
-
 ## Adding a Contact:
 
-	# valid 'Yahoo! Contacts Read/Write' scopes are required to support this method. 
+    # valid 'Yahoo! Contacts Read/Write' scopes are required to support this method. 
 
     $contact_fields = array();
     $contact_fields[] = array('type' => 'email', 'value' => 'me@domain.com');
@@ -186,3 +183,4 @@ The Yahoo! PHP SDK comes with a test suite to validate functionality. The tests 
 show functional examples and results. To run the test suite, simply execute the test suite:
 
     php phpunit test/AllTests.php
+    
